@@ -8138,7 +8138,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #999999; }
+  color: #ffffff; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8517,7 +8517,7 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
           color: #000000;
           font-weight: 600;
-          font-size: 25px;
+          font-size: 16px;
           letter-spacing: 3px;
           text-transform: uppercase;
           color: #e84a5f; }
