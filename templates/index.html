@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
     <link rel="stylesheet" href="{{url_for('static',filename='styles/open-iconic-bootstrap.min.css')}}">
-	<link rel="stylesheet" href="{{url_for('static',filename='styles/animate.css')}}">
+	<link rel="stylesheet" href="{{url_for('static',filename='styles/animate.css')}}">	
     
     <link rel="stylesheet" href="{{url_for('static',filename='styles/owl.carousel.min.css')}}">
     <link rel="stylesheet" href="{{url_for('static',filename='styles/owl.theme.default.min.css')}}">
@@ -93,44 +93,48 @@
 	        </div>
         </div>
     	</div>
-    </section>
+	</section>
 
-    <section class="ftco-section ftco-no-pb" id="resume-section">
-    	<div class="container">
+    <section class="ftco-section" id="resume-section">
+		<div class="container">
     		<div class="row justify-content-center pb-5">
-          <div class="col-md-10 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Job Experience</h1>
-            <h2 class="mb-4">Job Experience</h2>
-            <p>I need more experience!</p>
-          </div>
-        </div>
-    		<div class="row">
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">August 2019 - October 2019</span>
-    					<h2>Customer Analytics Intern</h2>
-    					<span class="position">Big Data Astra Digital</span>
-    					<p class="mt-4">point explanation.</p>
-    				</div>
-    			</div>
-
-    			<div class="col-md-6">
-    				<div class="resume-wrap ftco-animate">
-    					<span class="date">November 2019 - Present</span>
-    					<h2>Data Analyst</h2>
-    					<span class="position">PT. Neural Technologies Indonesia</span>
-    					<p class="mt-4">point explanation.</p>
-    				</div>
-    			</div>
-    		</div>
-    		<div class="row justify-content-center mt-5">
-    			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="https://drive.google.com/file/d/1UwL7ncoVcBr0BEH6VJvExM1BtHbfsP8Q/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
-    			</div>
-    		</div>
-    	</div>
-    </section>
-
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<h1 class="big big-2">Job Experience</h1>
+					<h2 class="mb-4">Job Experience</h2>
+					<p>I need more experience!</p>
+				</div>
+        	</div>
+		<div class="timeline">
+			<div class="container-timeline left">
+			  <div class="resume-wrap ftco-animate">
+					<span class="date">August 2019 - October 2019</span>
+					<h2>Customer Analytics Intern</h2>
+					<h4><p class="position">Big Data Astra Digital<p></h4>
+						<li>Helping customer analytics division to research about credit scoring</li>
+						<li>Determining which people are called good or not based on our criteria</li>
+						<li>Using FIF (Lending Firm under PT. Astra International) data to train model using some feature such as tenor, installment, object price, etc</li>
+						<li>Use trained model to predict another data source</li>
+			  </div>
+			</div>
+			<div class="container-timeline right">
+				<div class="resume-wrap ftco-animate">
+					<span class="date">November 2019 - Present</span>
+					<h2>Data Analyst</h2>
+					<h4><p class="position">PT. Neural Technologies Indonesia</p></h4>
+						<li>PT. Neural Technologies Indonesia is a vendor for Telkomsel</li>
+						<li>Develop ETL automation using Python and SQL</li>
+						<li>Make a RestAPI using postgREST</li>
+						<li>Make an automation download from web using Selenium and Mechanicalsoup Python package</li>
+						<li>Doing analyze, interpolation and report for Telkomsel data based on their trend</li>
+				</div>
+			</div>
+		  </div> 
+		  <div class="row justify-content-center mt-5">
+			<div class="col-md-6 text-center ftco-animate">
+				<p><a href="https://drive.google.com/file/d/1UwL7ncoVcBr0BEH6VJvExM1BtHbfsP8Q/view?usp=sharing" class="btn btn-primary py-4 px-5">Download CV</a></p>
+			</div>
+		</div>
+	</section>
 		
 		<section class="ftco-section" id="skills-section">
 			<div class="container">
@@ -193,7 +197,7 @@
 			<div class="col-md-6 col-lg-3 d-flex ftco-animate">
 				<div class="align-self-stretch box p-4 text-center">
 					<div class="icon d-flex align-items-center justify-content-center">
-						<span class="icon-paper-plane"></span>
+						<span class="icon-envelope"></span>
 					</div>
 					<h3 class="mb-4">Email Address</h3>
 				  <p><a href="mailto:info@yoursite.com">naufalkhairil@sci.ui.ac.id</a></p>
@@ -211,7 +215,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-map-signs"></span>
+          			<span class="icon-linkedin"></span>
           		</div>
           		<h3 class="mb-4">LinkedIn</h3>
 	            <p><a href="https://linkedin.com/in/naufalkhairil">Naufal Khairil</a></p>
@@ -222,7 +226,7 @@
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
+          			<span class="icon-github"></span>
           		</div>
           		<h3 class="mb-4">Github</h3>
 	            <p><a href="https://github.com/naufalkhairil">naufalkhairil</a></p>
@@ -231,13 +235,14 @@
         </div>
 
 
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-          </div>
-        </div>
-      </div>
-    </footer>
+		<div class="row">
+			<div class="col-md-12 text-center">
+  
+			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		  </div>
     
   
 
