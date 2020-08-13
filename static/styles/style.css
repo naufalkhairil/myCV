@@ -9776,7 +9776,7 @@ textarea.form-control {
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-  left: 17px;
+  left: 19px;
   }
   
   /* Make all right containers behave like the left ones */
